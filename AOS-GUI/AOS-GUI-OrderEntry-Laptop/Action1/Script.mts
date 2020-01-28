@@ -1,4 +1,4 @@
-﻿'Test started - QS 4001
+﻿'Test started - QS 4001 Defect 2031
 Browser("Advantage Shopping").CaptureBitmap("OrderStarted.png")
 Reporter.ReportEvent micDone, "Order Started", "Ready", "OrderStarted.png"
 Browser("Advantage Shopping").Page("Advantage Shopping").Link("UserMenu").Click @@ script infofile_;_ZIP::ssf1.xml_;_
