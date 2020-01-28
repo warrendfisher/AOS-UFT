@@ -1,4 +1,5 @@
-﻿Browser("Advantage Shopping").CaptureBitmap("OrderStarted.png")
+﻿'Test started
+Browser("Advantage Shopping").CaptureBitmap("OrderStarted.png")
 Reporter.ReportEvent micDone, "Order Started", "Ready", "OrderStarted.png"
 Browser("Advantage Shopping").Page("Advantage Shopping").Link("UserMenu").Click @@ script infofile_;_ZIP::ssf1.xml_;_
 Browser("Advantage Shopping").Page("Advantage Shopping").WebEdit("username").Set "warren" @@ script infofile_;_ZIP::ssf2.xml_;_
